@@ -3,22 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes — Home</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-        header { background: #f4f4f4; padding: 20px; text-align: center; border-radius: 8px; }
-        nav { margin: 20px 0; text-align: center; }
-        nav a { margin: 0 10px; text-decoration: none; color: #2c3e50; font-weight: bold; }
-        section { margin: 30px 0; }
-        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
-        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
-        th { background-color: #f4f4f4; }
-        form { background: #f9f9f9; padding: 20px; border-radius: 8px; }
-        label { display: block; margin-top: 10px; }
-        input, textarea { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; }
-        button { margin-top: 15px; padding: 10px 20px; background: #27ae60; color: white; border: none; border-radius: 4px; cursor: pointer; }
-        footer { text-align: center; margin-top: 40px; padding: 20px; color: #666; font-size: 0.9em; }
-    </style>
+    <title>Odin Recipes</title>
 </head>
 <body>
 
@@ -34,82 +19,59 @@
         <a href="recipes/cake.html">Chocolate Cake</a>
     </nav>
 
-    <main>
-        <section>
-            <h2>Welcome!</h2>
-            <p>Discover delicious, easy-to-follow recipes. Each page includes ingredients, step-by-step instructions, and tips.</p>
-            
-            <h3>🎧 Cooking Tips Audio</h3>
-            <audio controls>
-                <source src="assets/cooking-tips.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            
-        </section>
+    <section>
+        <h2>Welcome!</h2>
+        <p>Discover delicious, easy-to-follow recipes. Each page includes ingredients, step-by-step instructions, and tips.</p>
+        
+        <audio controls>
+            <source src="assets/cooking-tips.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        
+    </section>
 
-        <section>
-            <h2>Featured Recipes</h2>
-            <ul>
-                <li><a href="recipes/lasagna.html">Classic Lasagna</a> — hearty and cheesy Italian favorite</li>
-                <li><a href="recipes/adobo.html">Filipino Chicken Adobo</a> — savory and tangy national dish</li>
-                <li><a href="recipes/cake.html">Chocolate Cake</a> — rich, moist dessert</li>
-            </ul>
-        </section>
+    <section>
+        <h2>Featured Recipes</h2>
+        <ul>
+            <li><a href="recipes/lasagna.html">Classic Lasagna</a> — hearty and cheesy Italian favorite</li>
+            <li><a href="recipes/adobo.html">Filipino Chicken Adobo</a> — savory and tangy national dish</li>
+            <li><a href="recipes/cake.html">Chocolate Cake</a> — rich, moist dessert</li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>⏱️ Quick Reference</h2>
-            <table>
-                <caption>Recipe Preparation & Cooking Times</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">Recipe</th>
-                        <th scope="col">Prep Time</th>
-                        <th scope="col">Cook Time</th>
-                        <th scope="col">Servings</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Classic Lasagna</td>
-                        <td>30 min</td>
-                        <td>45 min</td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>Chicken Adobo</td>
-                        <td>15 min</td>
-                        <td>30 min</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Chocolate Cake</td>
-                        <td>20 min</td>
-                        <td>35 min</td>
-                        <td>12</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section>
-            <h2>💬 Share Your Feedback</h2>
-            <form action="#" method="post">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Send Feedback</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Odin Recipes. All rights reserved.</p>
-    </footer>
+    <section>
+        <h2>⏱️ Quick Reference</h2>
+        <table>
+            <caption>Recipe Preparation & Cooking Times</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Recipe</th>
+                    <th scope="col">Prep Time</th>
+                    <th scope="col">Cook Time</th>
+                    <th scope="col">Servings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Classic Lasagna</td>
+                    <td>30 min</td>
+                    <td>45 min</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Filipino Chicken Adobo</td>
+                    <td>15 min</td>
+                    <td>35 min</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Cake</td>
+                    <td>20 min</td>
+                    <td>30 min</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
 </body>
 </html>
